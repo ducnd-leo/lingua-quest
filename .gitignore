@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Env files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Build output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Frontend (Vite/React)
+frontend/dist/
+frontend/build/
+.vite/
+
+# Backend
+backend/dist/
+backend/build/
+
+# Prisma
+prisma/*.db
+prisma/*.db-journal
+generated/prisma/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Cache
+.eslintcache
+.cache/
+.turbo/
+
+# Salesforce CLI
+.sfdx/
+.sf/
+.localdevserver/
+
+# Misc
+*.tsbuildinfo
+*.pid
+*.seed
+*.pid.lock
