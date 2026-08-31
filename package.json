@@ -1,0 +1,11 @@
+{
+  "name": "lingua-quest",
+  "private": true,
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "dev": "concurrently -n frontend,backend -c blue,green \"npm run dev -w frontend\" \"npm run dev -w backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
